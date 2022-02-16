@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style-page-two.css">
+	<title>Lesson 8</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="content">
+				<div class="title">
+					<h1>Псевдоклассы и псевдоэлементы. Теория и практика.</h1>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<main class="main">
+				<div class="psevdo">
+					<div class="hover"> Привет, я псевдокласс :hover, давай не будем лохматить бубушку - наведи на этот блок
+						мышкой и будет тебе магия
+					</div>
+					<div class="active">А я плевдокласс :active, я работаю только при активации (клике на меня мышкой)
+					</div>
+					<a class="visited" target="_blank" href="http://gmail.com">Я :visited и я задаю стиль к уже посещенным
+						ссылкам (я ссылка , нажми на меня , я изменю свойства(например стану красной) и ты будешь знать что
+						уже
+						переходил по мне)</a>
+					<a class="focus" href=""> А :focus - применяет стиль к элементу при фокусировке на нем (можешь понажимать
+						Tab и увидишь) </a>
+					<div class="target">
+						:target - Срабатывает когда элемент является объектом
+						на который ссылаются. Только вот если у тебя маленький экран или тут будет много контента , то появится скрол и страничка будет прыгать, но для примера сойдёт. Пример:
+					</div>
+					<div id="one" class="line">
+						Maple Series
+					</div>
+					<div class="button">
+						<a class="btn" href="#one">Показать</a>
+						<a class="btn" href="#header">Спрятать</a>
+					</div>
+				</div>
+				<div class="all">
+					<h2>А теперь попробуем много разных плевдоклассов и псевдоэлементов</h2>
+					<div class="main-list">
+						<ul class="list">
+							<li>в этом списке есть ::before</li>
+							<li>:nth-child</li>
+							<li>:nth-child(odd)</li>
+							<li>nth-child(even)</li>
+							<li>Tincidunt sagittis neque sem ac eget.</li>
+							<li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+						</ul>
+					</div>
+					<div class="text">
+						<p>
+							Спасибо за фитбэк и хорошие советы)(это ::first-line) <br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur maxime distinctio sit
+							minus? Omnis at eos tenetur cupiditate dolorum, iusto veniam! Quasi perspiciatis amet, ab earum
+							corrupti esse voluptatibus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde placeat
+							dolor dolore sequi fuga. Laborum ipsum facere sapiente possimus dolores, placeat inventore. Sint
+							autem recusandae illo quaerat, architecto voluptate et numquam tempora facilis ratione fugit,
+							magnam fuga? Placeat neque aspernatur nihil quibusdam illum, ullam temporibus natus laborum
+							aliquam. Harum, consectetur!
+						</p>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim iusto quos saepe animi? Voluptate,
+							odio itaque repudiandae officiis recusandae pariatur explicabo excepturi magni deserunt eaque,
+							quisquam placeat perferendis corporis! Nobis!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quos quasi, sequi tenetur, soluta
+							esse iure debitis facilis dolore, atque sed aliquam minima animi voluptas repellat officiis
+							pariatur consectetur assumenda.</p>
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer class="footer">
+			<div class="podval">Я подвал</div>
+		</footer>
+	</div>
+
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+@import url(https://fonts.googleapis.com/css?family=Taviraj:regular,700&display=swap);
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.content{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: "Taviraj", sans-serif;
+	font-size: 25px;
+	/* background-color: thistle; */
+}
+
+header{
+	background-color: rgba(3, 168, 113, 0.486);
+	padding: 20px;
+}
+
+.psevdo{
+	margin-bottom: 30px;
+}
+
+.psevdo *:last-child{
+	margin-bottom: 0;
+}
+
+h1{
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+
+.title > *:last-child{
+	margin-bottom: 0;
+}
+
+
+.hover{
+	line-height: 1.3;
+	margin-bottom: 15px;
+	color: rgba(174, 0, 255, 0.842);
+}
+.hover:hover{
+	color: rgb(0, 255, 64);
+	opacity: 0.6;
+}
+
+.active{
+	line-height: 1.3;
+	font-size: 20px;
+	font-weight: 700;
+	color: brown;
+	margin-bottom: 15px;
+}
+.active:active{
+	color: blue;
+	opacity: 0.5;
+}
+
+.visited{
+	display: inline-block;
+	margin-bottom: 15px;
+	line-height: 1.3;
+
+}
+.visited:visited{
+	color: red;
+}
+
+.focus{
+	display: inline-block;
+	margin-bottom: 15px;
+	line-height: 1.3;
+}
+
+.focus:focus{
+outline: 5px solid green;
+text-shadow: 30px 30px 1px rgb(34, 6, 6);
+color: yellowgreen;
+}
+/* ===================Для target==================================== */
+.target{
+	margin-bottom: 15px;
+	line-height: 1.3;
+}
+
+.button{
+	margin-bottom: 30px;
+}
+
+.btn{
+	border-radius: 4px;
+	background-image: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	line-height: 3.1;
+	font-size: 14px;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 0 32px;
+}
+
+.line{
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	color: #333333;
+	font-weight: normal;
+	display: none;
+	margin-bottom: 30px;
+}
+
+.line:target{
+	display: block;
+}
+
+.line::after{
+	margin: 7px 0 0 0;
+	content: "";
+	display: block;
+	width: 30%;
+	height: 1px;
+	background-color: #333333;
+}
+
+/* ========================================================== */
+
+h2{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.main-list{
+	line-height: 1.62;
+	max-width: 500px;
+	color: #424551;
+	margin-bottom: 46px;
+}
+
+
+.list li:not(:last-child){
+	margin-bottom: 12px;
+}
+
+.list{
+	padding-left: 30px;
+}
+
+.list li::before{
+	display: inline-block;
+	content: "";
+	width: 16px;
+	height: 16px;
+	margin: 0 14px 0 -30px;
+	background: url("../img/vector.png") 0 0 no-repeat;
+
+}
+
+.list li:nth-child(2){
+	color: #FF3F3A;
+	text-decoration: underline;
+}
+
+.list li:nth-child(odd){
+	color: slategrey;
+	opacity: 0.5;
+}
+
+.list li:nth-child(even){
+	font-size: 21px;
+	text-decoration:line-through;
+	opacity: 0.7;
+}
+
+
+.text p:first-of-type{
+	color: #FF3F3A;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.text p:last-of-type{
+	color: green;
+	font-size: 14px;
+	font-weight: 700;
+	opacity: 0.6;
+}
+
+.text p:not(:last-child){
+	margin-bottom: 10px;
+}
+
+
+h2::first-letter{
+	color: greenyellow;
+}
+
+.text::first-line{
+	font-weight: 700;
+	font-size: 19px;
+	color: violet;
+}
+
+.text{
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+
+.all{
+	margin-bottom: 50px;
+}
+.all > *:last-child{
+	margin-bottom: 0;
+}
+
+
+.footer{
+	padding: 50px;
+	text-align: center;
+	background-image: url("../img/01.png");
+	background-attachment: fixed;
+
+}
+
+.podval{
+	font-size: 40px;
+}
